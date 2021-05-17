@@ -35,6 +35,8 @@ for i in dic.find_elements_by_css_selector('div'):
     if count == 3:
         break
 
+list_name = []
+list_number = []
 for i in dic.find_elements_by_css_selector('h3'):
     counting += 1
     category = i.text
